@@ -66,6 +66,24 @@ This repository contains the implementation of the technical exercises requested
 **Not fully implemented due to the post-login page loading issue.**
    - `.feature` file: `Note.feature`
    - Step definitions: `StepsNote.cs`
+  
+## Evidence
+
+**Task 1**
+
+Multiple of 4 or 6
+![multiple](https://github.com/user-attachments/assets/914d3a95-30d5-4ea8-bfcb-c481adec5e3c)
+
+Palindrome
+![polindromw](https://github.com/user-attachments/assets/38ef0e30-7e3d-495d-9eaf-14aac514b8b3)
+
+**Task 5**
+
+Sucessfull Login
+![login_sucess_pass](https://github.com/user-attachments/assets/d7ea8e4a-20bb-4b94-a496-ab8c1cfa65d4)
+
+Unsuccessful Login
+![login_wrong_pass](https://github.com/user-attachments/assets/505cd62f-5e5f-4432-a9a8-298c8e1813c9)
 
 ## Setting Up the Development Environment
 
