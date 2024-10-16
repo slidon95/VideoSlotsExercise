@@ -122,11 +122,20 @@ This repository contains the implementation of the technical exercises requested
 4. **Run the Project**:
    - Execute the tests by clicking on the **Run** button in Visual Studio.
 
+## Third question
+At the moment, I don’t have access to Videoslots to explore the platform; however, I consider the following as critical bugs:
+
+- Not being able to log in or register
+- Issues with making deposits and withdrawals
+- Not being able to access or play games in the online casino
+
+These issues significantly impact the user experience and need urgent attention.
+
 ## Fourth question
 
 Imagine you are dealing with a DB which has 2 tables, users table which holds the registered clients in a system and users_creds table which contains the users’ credentials for those who are still active in the system. Both tables are linked with the ids.
 
-![image](https://github.com/user-attachments/assets/33696d13-64c0-4fb1-828c-955dc99ed02a)
+![image](https://github.com/user-attachments/assets/6f9a5368-ed7d-48de-861f-d10c334146f1)
 
 1. Create an SQL Query which retrieves the id, name and surname of all registered users under country Malta.
 ```bash
@@ -140,7 +149,7 @@ SELECT u.id, u.name, u.surname
 FROM users u
 WHERE u.country NOT IN ('PT', 'FR');
 ```
-3. Create an SQL Query which retrieves the id, name and surname of all registered users which are still active.
+3. Create an SQL Query which retrieves the id, name and surname of all registered users which are still active.**(i am considering that active is equal failed_logins = 0)**
 ```bash
 SELECT u.id, u.name, u.surname
 FROM users u
