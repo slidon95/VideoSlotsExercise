@@ -1,0 +1,52 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Using Include="TechTalk.SpecFlow" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="FluentAssertions" Version="6.2.0" />
+        <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.11.1" />
+        <PackageReference Include="Microsoft.Playwright" Version="1.44.0" />
+        <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+        <PackageReference Include="NUnit.Console" Version="3.17.0" />
+        <PackageReference Include="NUnit.ConsoleRunner" Version="3.17.0" />
+        <PackageReference Include="NUnit3TestAdapter" Version="4.1.0" />
+        <PackageReference Include="SpecFlow.Assist.Dynamic" Version="1.4.2" />
+        <PackageReference Include="SpecFlow.NUnit" Version="3.9.22" /> <!-- Added JSON package -->
+    </ItemGroup>
+
+    <ItemGroup>
+        <Compile Update="Features\Evernote\Login.feature.cs">
+            <DependentUpon>Login.feature</DependentUpon>
+            <AutoGen>true</AutoGen>
+            <DesignTime>true</DesignTime>
+            <Visible>true</Visible>
+        </Compile>
+        <Compile Update="Features\Evernote\Note.feature.cs">
+            <DependentUpon>Note.feature</DependentUpon>
+            <AutoGen>true</AutoGen>
+            <DesignTime>true</DesignTime>
+            <Visible>true</Visible>
+        </Compile>
+        <Compile Update="Features\Task 1\Multiples_of_4_or_6.feature.cs">
+            <DependentUpon>Multiples of 4 or 6 .feature</DependentUpon>
+            <AutoGen>true</AutoGen>
+            <DesignTime>true</DesignTime>
+            <Visible>true</Visible>
+        </Compile>
+        <Compile Update="Features\Task 1\Palindrome.feature.cs">
+            <DependentUpon>Palindrome.feature</DependentUpon>
+            <AutoGen>true</AutoGen>
+            <DesignTime>true</DesignTime>
+            <Visible>true</Visible>
+        </Compile>
+    </ItemGroup>
+
+</Project>
