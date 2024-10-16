@@ -125,11 +125,10 @@ This repository contains the implementation of the technical exercises requested
 ## Third question
 At the moment, I don’t have access to Videoslots to explore the platform; however, I consider the following as critical bugs:
 
-- Not being able to log in or register
-- Issues with making deposits and withdrawals
-- Not being able to access or play games in the online casino
+- Not being able to log in or register - Without the ability to log in or register, users cannot access their accounts or create new ones, making the platform entirely unusable for both existing and potential new customers.
+- Issues with making deposits and withdrawals- These are fundamental transactions on a gambling platform. If users cannot deposit funds, they are unable to play. Similarly, withdrawal issues prevent users from accessing their winnings, which can lead to frustration and mistrust.
+- Not being able to access or play games in the online casino- The primary purpose of an online casino is to allow users to play games. If users cannot access or play games, it defeats the main reason for using the platform, resulting in a poor user experience and potential loss of users to competitors.
 
-These issues significantly impact the user experience and need urgent attention.
 
 ## Fourth question
 
